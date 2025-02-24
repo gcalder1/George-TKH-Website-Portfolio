@@ -1,0 +1,38 @@
+
+*{
+    text-decoration: none;
+}
+
+body{
+    background-color: #495264;
+}
+
+.center-piece{
+    display: inline-block;
+    background-color: #bfc0cf;
+    margin-right: 29.296875%;
+    margin-left: 29.296875%;
+}
+
+
+
+.navigation-bar ul{
+    background-color: #f0ebeb;
+    list-style-type: none;
+    justify-content: space-evenly;
+    flex-direction: row;
+
+}
+
+
+.navigation-bar a{
+    color: #222;
+}
+
+.navigation-bar.other-path{
+    align-content: flex-start;
+}
+
+.navigation-bar.GC-path{
+    align-self: flex-end;
+}
